@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubham_portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div id="logo">Shubham_portfolio</div>
+        <button class="menu-toggle" aria-label="Toggle navigation menu">
+            <span class="material-symbols-outlined">menu</span>
+        </button>
+        <ul class="nav-ul" id="site-nav">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <label class="theme-toggle" aria-label="Toggle color theme">
+            <input type="checkbox" id="theme-switch">
+            <span class="switch-track">
+                <span class="switch-thumb"></span>
+            </span>
+        </label>
+    </nav>
+
+    <main>
+        <section class="first-section" id="home">
+            <div class="first-container container">
+                <div class="fleft">
+                    <div class="Text">
+                        <h1>Hi i am <span>shubham</span></h1>
+                        <h1>i am a passionate</h1>
+                        <h1><span id="typed-role"></span><span class="typing-cursor">|</span></h1>
+                    </div>
+                    <div class="buttons">
+                        <a class="btn btn-primary" href="Assets/Shubham_Rokade_CV_P.pdf" download>Download CV</a>
+                        <a class="btn btn-secondary" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <div class="fright">
+                    <img src="Assets/bg.png" alt="Developer illustration">
+                </div>
+            </div>
+        </section>
+
+        <section class="second-section" id="about">
+            <div class="second-container container">
+                <div class="sleft">
+                    <img src="Assets/shubham.jpeg" alt="Shubham portrait">
+                </div>
+                <div class="sright">
+                    <div class="abutme">
+                        <h1>About Me</h1>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium molestiae tempora earum
+                            aut eum veniam incidunt ipsam quasi quam dicta aliquam aspernatur aliquid neque, delectus,
+                            eos exercitationem quos dolores. Ducimus?
+                        </p>
+                    </div>
+
+                    <div class="list-info">
+                        <ul class="aboutme-ul">
+                            <li data-target="skills" class="active">Skills</li>
+                            <li data-target="Education">Education</li>
+                            <li data-target="Experience">Experience</li>
+                        </ul>
+
+                        <div class="content skills active">
+                            <h4>Front End</h4>
+                            <p>Html, css, js, react</p>
+                            <h4>Language</h4>
+                            <p>C/C++, Java, python</p>
+                            <h4>Other</h4>
+                            <p>Dbms, Ccna, OOPS</p>
+                        </div>
+
+                        <div class="content Education">
+                            <h4>Pre-Sales Network Techlab India LTd</h4>
+                            <p>
+                                - Understood client requirements for structured cabling and designed IT infrastructure accordingly.<br>
+                                - Prepared network architecture and topology using AutoCAD based on site surveys and client inputs.<br>
+                                - Created and submitted technical quotations and BOQs for projects.<br>
+                                - Led project for IIT Bombay involving deployment of 900+ Wi-Fi Access Points across 15 departments.<br>
+                                - Managed AP mounting teams, handled material inventory, and coordinated with clients and internal teams for regular updates.
+                            </p>
+                        </div>
+
+                        <div class="content Experience">
+                            <h4>Pre-Sales company Network Techlab India LTd</h4>
+                            <p>
+                                - Understood client requirements for structured cabling and designed IT infrastructure accordingly.<br>
+                                - Prepared network architecture and topology using AutoCAD based on site surveys and client inputs.<br>
+                                - Created and submitted technical quotations and BOQs for projects.<br>
+                                - Led project for IIT Bombay involving deployment of 900+ Wi-Fi Access Points across 15 departments.<br>
+                                - Managed AP mounting teams, handled material inventory, and coordinated with clients and internal teams for regular updates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="third-section" id="projects">
+            <div class="third-container project-cards container">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Assets/iot.jpg" alt="Iot project">
+                    </div>
+                    <div class="card-text">
+                        <h1>Iot based plant watering system</h1>
+                        <p>
+                            Designed and built an automated plant watering system
+                            using ESP8266, allowing remote monitoring and control via
+                            the Blynk app for efficient plant care.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Assets/Smart-personal-Assistant.png" alt="Smart assistant project">
+                    </div>
+                    <div class="card-text">
+                        <h1>Smart Personal Assistant for Seniors</h1>
+                        <p>
+                            Developed a voice- and face-enabled assistant for senior
+                            citizens using Raspberry Pi. Integrated Google Assistant for
+                            voice commands, facial recognition for profile access, and
+                            features like weather updates and reminders.
+                        </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-img">
+                        <img src="Assets/Automatic-Railway-Gate-Control-Circuit-Diagram.webp" alt="Railway automation project">
+                    </div>
+                    <div class="card-text">
+                        <h1>Automated Railway Tunnel Lighting System</h1>
+                        <p>
+                            Developed and implemented an automated system using
+                            STM32 to detect obstacles on railway tracks and identify
+                            train entry into tunnels for enhanced safety.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="forth-section" id="contact">
+            <div class="forth-container container">
+                <div class="form-info">
+                    <h1 class="center-title">Contact</h1>
+                    <form class="form" action="https://formsubmit.co/rokadeshubham924@gmail.com" method="POST">
+                        <input type="hidden" name="_subject" value="New Portfolio Contact Message">
+                        <input type="hidden" name="_template" value="table">
+                        <div class="ip name">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                        </div>
+
+                        <div class="ip email">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" placeholder="email@gmail.com" required>
+                        </div>
+
+                        <div class="ip message">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                        </div>
+
+                        <button class="lastbtn" type="submit">Submit</button>
+                        <p class="form-note">On first submit, check your inbox and confirm FormSubmit activation.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="connect-withus">
+            <h2>Connect With Me</h2>
+            <div class="icon">
+                <a href="https://www.linkedin.com/in/shubhamrokade33/"> <i class="fa fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/RioSnippt404"><i class="fa fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa fa-solid fa-envelope"></i></a>
+                <a href="#"><i class="fa fa-brands fa-whatsapp"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <h3>Created By <span class="signature-name">shubham</span> | All Right Reserved.</h3>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/9486344d3a.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
